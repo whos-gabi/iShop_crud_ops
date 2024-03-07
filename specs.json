@@ -1,0 +1,276 @@
+[
+    {
+        "name": "iPhone X",
+        "memory": [
+            "64GB",
+            "256GB"
+        ],
+        "screen_size": "5.8 inches",
+        "chip": "A11 Bionic",
+        "cameras": "Dual 12MP"
+    },
+    {
+        "name": "iPhone XR",
+        "memory": [
+            "64GB",
+            "128GB",
+            "256GB"
+        ],
+        "screen_size": "6.1 inches",
+        "chip": "A12 Bionic",
+        "cameras": "Single 12MP"
+    },
+    {
+        "name": "iPhone XS",
+        "memory": [
+            "64GB",
+            "256GB",
+            "512GB"
+        ],
+        "screen_size": "5.8 inches",
+        "chip": "A12 Bionic",
+        "cameras": "Dual 12MP"
+    },
+    {
+        "name": "iPhone XS Max",
+        "memory": [
+            "64GB",
+            "256GB",
+            "512GB"
+        ],
+        "screen_size": "6.5 inches",
+        "chip": "A12 Bionic",
+        "cameras": "Dual 12MP"
+    },
+    {
+        "name": "iPhone 11",
+        "memory": [
+            "64GB",
+            "128GB",
+            "256GB"
+        ],
+        "screen_size": "6.1 inches",
+        "chip": "A13 Bionic",
+        "cameras": "Dual 12MP"
+    },
+    {
+        "name": "iPhone 11 Pro",
+        "memory": [
+            "64GB",
+            "256GB",
+            "512GB"
+        ],
+        "screen_size": "5.8 inches",
+        "chip": "A13 Bionic",
+        "cameras": "Triple 12MP"
+    },
+    {
+        "name": "iPhone 11 Pro Max",
+        "memory": [
+            "64GB",
+            "256GB",
+            "512GB"
+        ],
+        "screen_size": "6.5 inches",
+        "chip": "A13 Bionic",
+        "cameras": "Triple 12MP"
+    },
+    {
+        "name": "iPhone 12",
+        "memory": [
+            "64GB",
+            "128GB",
+            "256GB"
+        ],
+        "screen_size": "6.1 inches",
+        "chip": "A14 Bionic",
+        "cameras": "Dual 12MP",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 12 Mini",
+        "memory": [
+            "64GB",
+            "128GB",
+            "256GB"
+        ],
+        "screen_size": "5.4 inches",
+        "chip": "A14 Bionic",
+        "cameras": "Dual 12MP",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 12 Pro",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
+        "screen_size": "6.1 inches",
+        "chip": "A14 Bionic",
+        "cameras": "Triple 12MP",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 12 Pro Max",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
+        "screen_size": "6.7 inches",
+        "chip": "A14 Bionic",
+        "cameras": "Triple 12MP",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 13",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
+        "screen_size": "6.1 inches",
+        "chip": "A15 Bionic",
+        "cameras": "Dual 12MP",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 13 Mini",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
+        "screen_size": "5.4 inches",
+        "chip": "A15 Bionic",
+        "cameras": "Dual 12MP",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 13 Pro",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
+        "screen_size": "6.1 inches",
+        "chip": "A15 Bionic",
+        "cameras": "Triple 12MP",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 13 Pro Max",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
+        "screen_size": "6.7 inches",
+        "chip": "A15 Bionic",
+        "cameras": "Triple 12MP",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 14",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
+        "screen_size": "6.1 inches",
+        "chip": "A15 Bionic",
+        "cameras": "Dual 12MP",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 14 Plus",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
+        "screen_size": "6.7 inches",
+        "chip": "A15 Bionic",
+        "cameras": "Dual 12MP",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 14 Pro",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
+        "screen_size": "6.1 inches",
+        "chip": "A16 Bionic",
+        "cameras": "Triple 12MP + LiDAR",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 14 Pro Max",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
+        "screen_size": "6.7 inches",
+        "chip": "A16 Bionic",
+        "cameras": "Triple 12MP + LiDAR",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 15",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
+        "screen_size": "6.1 inches",
+        "chip": "A17 Bionic",
+        "cameras": "Dual 12MP",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 15 Plus",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
+        "screen_size": "6.7 inches",
+        "chip": "A17 Bionic",
+        "cameras": "Dual 12MP",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 15 Pro",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
+        "screen_size": "6.1 inches",
+        "chip": "A17 Bionic",
+        "cameras": "Triple 12MP + LiDAR",
+        "5G": "Yes"
+    },
+    {
+        "name": "iPhone 15 Pro Max",
+        "memory": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
+        "screen_size": "6.7 inches",
+        "chip": "A17 Bionic",
+        "cameras": "Triple 12MP + LiDAR",
+        "5G": "Yes"
+    }
+]
