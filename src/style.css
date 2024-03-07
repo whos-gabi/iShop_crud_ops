@@ -6,3 +6,6 @@
 .invert {
   filter: invert(100%);
 }
+.nostyle {
+  text-decoration: none;
+}

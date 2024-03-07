@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('partials/head') %>
+</head>
+
+<body>
+    <%- include('partials/navbar') %>
+
+        <section>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center my-3">Update Product</h1>
+                    <p class="text-center text-muted">#<%= product._id %>
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card bg-dark text-white p-3">
+
+                            <form action="/update/<%= product._id %>" method="POST">
+
+                                <div class="mb-3">
+                                    <label for="productPrice" class="form-label">Price</label>
+                                    <input type="number" class="form-control" id="productPrice" name="price"
+                                        value="<%= product.price %>">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="product-specs" class="form-label
+                                ">iPhone Specs</label>
+                                    <select class="form-select" aria-label="Default select example" id="product-specs"
+                                        name="specs">
+                                        <% specs.forEach(spec=> {%>
+                                            <option value="<%= spec.name %>" <% if(spec.name===product.specs.name){%>
+                                                selected<%}%>>
+                                                    <%= spec.name %>
+                                            </option>
+                                            <% }) %>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"
+                                            name="secondHand" <% if(product.secondHand){%>
+                                        checked
+                                        <%}%>>
+                                            <label class="form-check-label" for="flexSwitchCheckDefault">Second
+                                                Hand</label>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100">Update Product</button>
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <%- include('partials/scripts') %>
+</body>
+
+</html>

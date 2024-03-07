@@ -1,4 +1,5 @@
 const { MongoClient } = require("mongodb");
+const { ObjectId } = require('mongodb'); // Make sure to import ObjectId
 
 // Get MongoDB connection details from environment variables
 const uri =
@@ -53,7 +54,8 @@ async function read(id) {
   try {
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
-    const result = await collection.findOne({ _id: id });
+    const objectId = new ObjectId(id);
+    const result = await collection.findOne({ _id: objectId });
     return result;
   } catch (error) {
     console.error("Failed to read iPhone", error);
@@ -64,7 +66,8 @@ async function update(id, updates) {
   try {
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
-    const result = await collection.updateOne({ _id: id }, { $set: updates });
+    const objectId = new ObjectId(id);
+    const result = await collection.updateOne({ _id: objectId }, { $set: updates });
     return result.modifiedCount;
   } catch (error) {
     console.error("Failed to update iPhone", error);
@@ -72,15 +75,16 @@ async function update(id, updates) {
 }
 
 async function remove(id) {
-  try {
-    const db = client.db(dbName);
-    const collection = db.collection(collectionName);
-    const result = await collection.deleteOne({ _id: id });
-    return result.deletedCount;
-  } catch (error) {
-    console.error("Failed to remove iPhone", error);
+    try {
+      const db = client.db(dbName);
+      const collection = db.collection(collectionName);
+      const objectId = new ObjectId(id);
+      const result = await collection.deleteOne({ _id: objectId });
+      return result.deletedCount;
+    } catch (error) {
+      console.error("Failed to remove iPhone", error);
+    }
   }
-}
 
 // read all documents
 async function readAll() {
